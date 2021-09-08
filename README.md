@@ -22,10 +22,10 @@ This module consists of 4 file-:
 * **decode.c**                  //Decoding the base64 encoded message.
 
 ##  For compilation of the client.c:
-**Command :- **        gcc -o client client.c -lm
+* **Command :- **        gcc -o client client.c -lm
 
 ##  For compilation of the server.c:
-**Command :- **        gcc -o server server.c -lm
+* **Command :-**        gcc -o server server.c -lm
 
 ##  To start the server :
           ./server 9090
