@@ -16,16 +16,16 @@
 ## HOW TO EXECUTE THE PROGRAM
 
 This module consists of 4 file-:
-client.c                  //this file includes the encode and decode module.
-server.c                  //this file also includes the encode and decode module.
-encode.c                  //Encoding the text message to base64 encoding
-decode.c                  //Decoding the base64 encoded message.
+* client.c                  //this file includes the encode and decode module.
+* server.c                  //this file also includes the encode and decode module.
+* encode.c                  //Encoding the text message to base64 encoding
+* decode.c                  //Decoding the base64 encoded message.
 
 ##  For compilation of the client.c:
-Command :-         gcc -o client client.c -lm
+**Command :- **        gcc -o client client.c -lm
 
 ##  For compilation of the server.c:
-Command :-         gcc -o server server.c -lm
+**Command :- **        gcc -o server server.c -lm
 
 ##  To start the server :
           ./server 9090
@@ -38,5 +38,5 @@ Command :-         gcc -o server server.c -lm
           
 ##  Prototypes for Client and Server :
 
-Client: <executable code><Server IP Address><Server Port number>
-Server: <executable code><Server Port number>
+        > Client: <executable code><Server IP Address><Server Port number>
+        > Server: <executable code><Server Port number>
