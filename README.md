@@ -38,6 +38,6 @@ This module consists of 4 file-:
           
 ##  Prototypes for Client and Server :
 
-        ```> Client: <executable code><Server IP Address><Server Port number>
-        > Server: <executable code><Server Port number>
-        ```
+        > Client: _<executable code><Server IP Address><Server Port number>_
+        > Server: _<executable code><Server Port number>_
+        
